@@ -42,27 +42,27 @@ insert into Repventas values ('Bill Adams',13,350000.00,367911.00),('Mary Jones'
 --Lista las oficinas con sus objetivos y sus ventas reales
 select ciudad,objetivo,ventas from Oficinas
 
---Lista las oficinas con sus objetivos y ventas reales de la región Oeste
+--Lista las oficinas con sus objetivos y ventas reales de la regiÃ³n Oeste
 select ciudad,objetivo,ventas from Oficinas
 where region='Oeste'
 
---Lista las oficinas con sus objetivos y ventas reales de la región Oeste, de aquellas ventas que exceden sus objetivos, ordenandolas por orden albafetivo por ciudad
+--Lista las oficinas con sus objetivos y ventas reales de la regiÃ³n Oeste, de aquellas ventas que exceden sus objetivos, ordenandolas por orden albafetivo por ciudad
 select ciudad,objetivo,ventas from Oficinas
 where ventas>objetivo
 order by ciudad asc
 
---¿Cuales son los objetivos y ventas promedios para las oficinas de la oficina Este?
+--Â¿Cuales son los objetivos y ventas promedios para las oficinas de la oficina Este?
 select ciudad,objetivo,AVG(ventas) as 'Promedio ventas' from Oficinas
 where region='Este'
 
 --Lista los nombres y oficinas de todos los repVentas
 select nombre,oficina_rep from Repventas
 
---¿Cual es el nombre , cuota y ventas del empleado numero 107?
+--Â¿Cual es el nombre , cuota y ventas del empleado numero 107?
 select * from Repventas
 where oficina_rep=107
 
---¿Cuales son las ventas promedio de los vendedores?
+--Â¿Cuales son las ventas promedio de los vendedores?
 select AVG(ventas) as 'Promedio Ventas 'from Repventas
 
 --Liste el nombre de cualquier repVentas cuyas ventas sean superiores a 500,000
@@ -78,21 +78,21 @@ select region,ventas from Oficinas
 --Lista la ciudad, region y ventas de cada oficina de ventas
 select ciudad,region,ventas from Oficinas
 
---Despliga que sucederá si se eleva la cuota de cada vendedor un 3%
+--Despliga que sucederÃ¡ si se eleva la cuota de cada vendedor un 3%
 select cuota*1.03 from Repventas
 
 --Muestra todos los datos de la tabla Oficinas
 select * from Oficinas
 
---Lista las oficinas que están por debajo del 80% de su objetivo
+--Lista las oficinas que estÃ¡n por debajo del 80% de su objetivo
 select * from Oficinas
 where objetivo<(objetivo*0.8)
 
---Emcuentra los pedidos cuyo importe está entre 30000.00 y 39999.00
+--Emcuentra los pedidos cuyo importe estÃ¡ entre 30000.00 y 39999.00
 select * from Pedidos
 where importe between 30000.00 and 39999.00
 
---Lista los vendedores cuyas ventas no están en el 80% y 120% de su cuota
+--Lista los vendedores cuyas ventas no estÃ¡n en el 80% y 120% de su cuota
 select * from Repventas
 where ventas <> (cuota*0.80)
 select * from Repventas
@@ -114,10 +114,10 @@ order by ventas desc
 --Cuales son las cuotas maxima y minima?
 select max(cuota) as 'Cuota Maxima',min(cuota) as 'Cuota Minima' from Repventas
 
---¿Cuantos vendedores superan su cuota?
+--Â¿Cuantos vendedores superan su cuota?
 select * from Repventas
 where ventas > cuota
 
---¿Cuantos pedidos de más de 25,000 hay en los registros?
+--Â¿Cuantos pedidos de mÃ¡s de 25,000 hay en los registros?
 select } from Pedidos
 where importe > 25000
