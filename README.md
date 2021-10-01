@@ -5,18 +5,27 @@ Contiene algunas de mis prácticas que he hecho a lo largo de la carrera, todas 
 
 ### Lenguajes utilizados:
 ღ C#
+
 ღ C++
+
 ღ JavaScript
+
 ღ SQL
 
 ### Librerías utilizadas:
 ✿ .Net Framework (Visual Studio)
+
 ✿ .Net Core (Visual Studio)
+
 ✿ Windows Forms (C#)
+
 ✿ Processing 5 (JavaScript)
 
-### Compiladores utilizados
+### Compiladores utilizados:
 ★ Visual Studio
+
 ★ Visual Studio Code
+
 ★ My SQL
+
 ★ SQL Server
