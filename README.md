@@ -14,6 +14,8 @@ Contiene algunas de mis prácticas que he hecho a lo largo de la carrera, todas 
 
 ღ MATLAB
 
+ღ Haskell
+
 ### Librerías utilizadas:
 ✿ .Net Framework (Visual Studio)
 
@@ -33,3 +35,5 @@ Contiene algunas de mis prácticas que he hecho a lo largo de la carrera, todas 
 ★ SQL Server
 
 ★ MATLAB
+
+★ GHCi
