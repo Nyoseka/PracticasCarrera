@@ -12,6 +12,8 @@ Contiene algunas de mis prácticas que he hecho a lo largo de la carrera, todas 
 
 ღ SQL
 
+ღ MATLAB
+
 ### Librerías utilizadas:
 ✿ .Net Framework (Visual Studio)
 
@@ -29,3 +31,5 @@ Contiene algunas de mis prácticas que he hecho a lo largo de la carrera, todas 
 ★ My SQL
 
 ★ SQL Server
+
+★ MATLAB
