@@ -16,6 +16,9 @@ Contiene algunas de mis prácticas que he hecho a lo largo de la carrera, todas 
 
 ღ Haskell
 
+ღ Prolog
+
+
 ### Librerías utilizadas:
 ✿ .Net Framework (Visual Studio)
 
@@ -34,6 +37,6 @@ Contiene algunas de mis prácticas que he hecho a lo largo de la carrera, todas 
 
 ★ SQL Server
 
-★ MATLAB
-
 ★ GHCi
+
+★ SWI-Prolog
