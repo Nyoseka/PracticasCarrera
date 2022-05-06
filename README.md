@@ -18,6 +18,8 @@ Contiene algunas de mis prácticas que he hecho a lo largo de la carrera, todas 
 
 ღ Prolog
 
+ღ Python/Circuit Python
+
 
 ### Librerías utilizadas:
 ✿ .Net Framework (Visual Studio)
@@ -28,7 +30,7 @@ Contiene algunas de mis prácticas que he hecho a lo largo de la carrera, todas 
 
 ✿ Processing 5 (JavaScript)
 
-### Compiladores utilizados:
+### Compiladores y programas utilizados:
 ★ Visual Studio
 
 ★ Visual Studio Code
